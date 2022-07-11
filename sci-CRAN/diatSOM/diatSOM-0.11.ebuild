@@ -17,7 +17,6 @@ DEPEND="dev-lang/R
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/vegan
-	sci-CRAN/graphics
 	${R_SUGGESTS-}
 "
 
