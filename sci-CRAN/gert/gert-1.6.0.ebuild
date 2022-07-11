@@ -24,5 +24,6 @@ DEPEND="sci-CRAN/askpass
 	>=sci-CRAN/credentials-1.2.1
 	>=sci-CRAN/rstudioapi-0.11
 	>=sci-CRAN/zip-2.1.0
+	dev-libs/libgit2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
