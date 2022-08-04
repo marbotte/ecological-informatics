@@ -15,7 +15,7 @@ IUSE="${IUSE-}
 R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
->=sci-CRAN/sp-1.1-0
+>=sci-CRAN/sp-1.1.0
 >=sci-libs/proj-4.8.0
 >=sci-libs/gdal-1.11.4
 "

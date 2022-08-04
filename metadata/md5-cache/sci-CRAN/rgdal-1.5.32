@@ -1,14 +1,14 @@
 BDEPEND=dev-lang/R:=
 DEFINED_PHASES=compile configure install postinst unpack
-DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/sp-1.1-0 >=sci-libs/proj-4.8.0 >=sci-libs/gdal-1.11.4 dev-lang/R:=
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/sp-1.1.0 >=sci-libs/proj-4.8.0 >=sci-libs/gdal-1.11.4 dev-lang/R:=
 DESCRIPTION=Bindings for the "Geospatial" Data Abstraction Library
 EAPI=7
 INHERIT=R-packages
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/sp-1.1-0 >=sci-libs/proj-4.8.0 >=sci-libs/gdal-1.11.4 dev-lang/R:=
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/sp-1.1.0 >=sci-libs/proj-4.8.0 >=sci-libs/gdal-1.11.4 dev-lang/R:=
 SLOT=0
 SRC_URI=https://cran.r-project.org/src/contrib/rgdal_1.5-32.tar.gz
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
-_md5_=32c0323e67ce1efc7277ec6f8d691e35
+_md5_=e6056b79aafaebd21ff8ef673348929a
