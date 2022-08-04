@@ -14,7 +14,7 @@ IUSE="${IUSE-}"
 R_SUGGESTS="
 "
 DEPEND="sci-CRAN/vegan
-	>=dev-lang/R
+	dev-lang/R
 "
 RDEPEND="${DEPEND-}
 "
