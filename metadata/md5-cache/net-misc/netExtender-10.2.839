@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install nofetch
+DESCRIPTION=Dell (SonicWall) NetExtender SSL VPN Client
+EAPI=7
+HOMEPAGE=https://www.mysonicwall.com/muir/freedownloads
+KEYWORDS=-* ~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=net-dialup/ppp-2.4.8 >=sys-apps/iproute2-5.4.0
+RESTRICT=fetch
+SLOT=0
+SRC_URI=https://software.sonicwall.com/NetExtender/NetExtender.Linux-10.2.839.x86_64.tgz
+_md5_=ac015ef8433b55eeb68f1b41312f700e
