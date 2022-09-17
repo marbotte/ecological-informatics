@@ -18,7 +18,6 @@
 		<flag name="python">python</flag>
 		<flag name="qhull">various operations from qhull package</flag>
 		<flag name="libharu">pdf export through libharu</flag>
-		<flag name="opencv">using opencv library for vizualisation</flag>
 		<flag name="vigra">image processing through vigra</flag>
 		<flag name="svm">svm</flag>
 		<flag name="las">las</flag>

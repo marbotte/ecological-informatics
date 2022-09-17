@@ -20,7 +20,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
-IUSE="python qhull libharu opencv vigra svm las postgres swig curl odbc"
+IUSE="python qhull libharu vigra svm las postgres swig curl odbc"
 
 DEPEND="app-arch/unzip
 	>=x11-libs/wxGTK-3.0.0
@@ -32,7 +32,7 @@ DEPEND="app-arch/unzip
 	curl? ( net-misc/curl )
 	qhull? ( media-libs/qhull )
 	libharu? ( media-libs/libharu )
-	opencv? ( media-libs/opencv )
+	media-libs/opencv
 	vigra? ( media-libs/vigra )
 	svm? ( sci-libs/libsvm )
 	las? ( sci-geosciences/liblas )
