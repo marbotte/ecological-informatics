@@ -1,11 +1,12 @@
 # This patch allows to use the newer version of opencv which uses c++ headers instead of the old opencv/cv c header
+
 --- a/src/tools/imagery/imagery_opencv/MLB_Interface.cpp
 +++ b/src/tools/imagery/imagery_opencv/MLB_Interface.cpp
-@@ -59,7 +59,7 @@
+@@ -59,1 +59,1 @@
 -#include <opencv/cv.h>
 +#include <opencv2/opencv.hpp>>
 --- a/src/tools/imagery/imagery_opencv/opencv.h
 +++ b/src/tools/imagery/imagery_opencv/opencv.h
-@@ -72,7 +72,7 @@
+@@ -72,1 +72,1 @@
 -#include <opencv/cv.h>
 +#include <opencv2/opencv.hpp>>
