@@ -21,7 +21,7 @@ sci-CRAN/plyr
 sci-CRAN/rgdal
 sci-CRAN/stringr
 sci-CRAN/magrittr
->=sci-geosciences/saga-2.3
+>=sci-geosciences/saga-gis-2.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 
