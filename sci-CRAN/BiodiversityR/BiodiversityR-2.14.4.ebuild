@@ -69,16 +69,18 @@ R_SUGGESTS="
 	r_suggests_splancs? ( sci-CRAN/splancs )
 	r_suggests_vegan3d? ( sci-CRAN/vegan3d )
 "
-DEPEND=">=sci-CRAN/ggplot2-3.3.3
-	dev-lang/R[tk]
-	>=dev-lang/R-3.2.2
-	>=sci-CRAN/vegan-2.6.0
-	>=sci-CRAN/Rcmdr-2.7.0
-    >=sci-CRAN/terra-1.4.22
-	>=sci-CRAN/raster-3.5.11
-	sci-CRAN/envirem
-	sci-CRAN/red
-	sci-CRAN/rgdal
+DEPEND="
+>=sci-CRAN/ggplot2-3.3.3
+dev-lang/R[tk]
+>=dev-lang/R-3.2.2
+>=sci-CRAN/vegan-2.6.0
+>=sci-CRAN/Rcmdr-2.7.0
+>=sci-CRAN/terra-1.4.22
+>=sci-CRAN/raster-3.5.11
+sci-CRAN/envirem
+sci-CRAN/red
+sci-CRAN/rgdal
+sci-CRAN/latticeExtra
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 
