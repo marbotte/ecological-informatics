@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>m.bottin_pro@yahoo.com</email>
+		<name>Marius Bottin</name>
+	</maintainer>
+	<longdescription lang="en">
+    SAGA is the abbreviation for System for Automated Geoscientific Analyses
+    SAGA is a Geographic Information System (GIS) software
+    SAGA has been designed for an easy and effective implementation of spatial algorithms
+    SAGA offers a comprehensive, growing set of geoscientific methods
+    SAGA provides an easily approachable user interface with many visualisation options
+    SAGA runs under Windows and Linux operating systems
+    SAGA is a Free Open Source Software (FOSS)
+	</longdescription>
+	<use>
+		<flag name="python">python</flag>
+		<flag name="qhull">various operations from qhull package</flag>
+		<flag name="libharu">pdf export through libharu</flag>
+		<flag name="opencv">using opencv library for vizualisation</flag>
+		<flag name="vigra">image processing through vigra</flag>
+		<flag name="svm">svm</flag>
+		<flag name="las">las</flag>
+		<flag name="postgres">postgres support</flag>
+		<flag name="swig">c c++ integration through swig</flag>
+		<flag name="curl">curl</flag>
+		<flag name="odbc">odbc</flag>
+	</use>
+</pkgmetadata>
