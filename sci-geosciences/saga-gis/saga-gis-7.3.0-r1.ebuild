@@ -44,7 +44,13 @@ BDEPEND="${BDEPEND}"
 
 S="${WORKDIR}/${FIRST_NAME}-${PV}"
 
+
+PATCHES=(
+	"${FILESDIR}"/opencv_change_header.patch
+)
+
 src_prepare() {
+	eapply "${FILESDIR}"/opencv_change_header.patch
 	# Thanks to https://forums.gentoo.org/viewtopic-t-1061378.html
 	default
 	sed -i -e 's:-ldconfig:true:' src/saga_core/saga_api/Makefile.in
