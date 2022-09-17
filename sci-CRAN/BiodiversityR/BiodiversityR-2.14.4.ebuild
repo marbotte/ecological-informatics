@@ -81,7 +81,7 @@ sci-CRAN/envirem
 sci-CRAN/red
 sci-CRAN/rgdal
 sci-CRAN/latticeExtra
-sci-CRAN/tcltk
+sci-CRAN/tcltk2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 
