@@ -19,13 +19,11 @@
 		<flag name="qhull">various operations from qhull package</flag>
 		<flag name="libharu">pdf export through libharu</flag>
 		<flag name="vigra">image processing through vigra</flag>
-		<flag name="svm">svm</flag>
-		<flag name="las">las</flag>
-		<flag name="postgres">postgres support</flag>
 		<flag name="swig">c c++ integration through swig</flag>
-		<flag name="curl">curl</flag>
-		<flag name="odbc">odbc</flag>
 		<flag name="liblas">liblas</flag>
 		<flag name="libsvm">libsvm</flag>
+		<flag name="opencv">opencv</flag>
+		<flag name="postgis">postgis</flag>
+		<flag name="postgresql">postgresql</flag>
 	</use>
 </pkgmetadata>
