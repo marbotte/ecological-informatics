@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Utilities for manipulating chromosome names (see metadata)'
 KEYWORDS="~amd64"
-SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/IRanges_2.18.3.tar.gz"
+SRC_URI="https://bioconductor.org/packages/release/bioc/src/contrib/GenomeInfoDb_1.32.4.tar.gz"
 LICENSE='Artistic-2'
 
 IUSE="${IUSE-}"
