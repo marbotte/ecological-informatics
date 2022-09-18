@@ -12,15 +12,13 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_affy r_suggests_runit"
 R_SUGGESTS="
-	r_suggests_affy? ( >=sci-BIOC/affy-1.41.3 )
-	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="
 >=dev-lang/R-3.5.0
 >=sci-BIOC/BiocGenerics-0.37.0
 >=sci-BIOC/IRanges-2.30.1
 >=sci-BIOC/S4Vectors-0.21.13
->=sci-BIOC/XVector-0.23.2
+>=sci-BIOC/XVector-0.29.2
 sci-BIOC/GenomeInfoDb
 "
 RDEPEND="${DEPEND-}
