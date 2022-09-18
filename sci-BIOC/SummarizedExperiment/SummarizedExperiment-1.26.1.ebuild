@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='SummarizedExperiment container'
 KEYWORDS="~amd64"
-SRC_URI="https://bioconductor.org/packages/release/bioc/src/contrib/GenomicRanges_1.48.0.tar.gz"
+SRC_URI="https://bioconductor.org/packages/release/bioc/src/contrib/SummarizedExperiment_1.26.1.tar.gz"
 LICENSE='Artistic-2'
 
 IUSE="${IUSE-}"
