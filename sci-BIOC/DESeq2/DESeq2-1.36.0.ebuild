@@ -23,6 +23,7 @@ sci-BIOC/genefilter
 sci-CRAN/locfit
 sci-BIOC/geneplotter
 sci-CRAN/ggplot2
+sci-CRAN/RcppArmadillo
 >=sci-CRAN/Rcpp-0.11.0
 virtual/MASS
 "
