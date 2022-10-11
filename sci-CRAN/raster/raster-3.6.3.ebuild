@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Geographic Data Analysis and Modeling'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/raster/raster_3.5-29.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/raster_3.6-3.tar.gz"
 LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_exactextractr r_suggests_fields r_suggests_gstat
@@ -28,10 +28,10 @@ R_SUGGESTS="
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
 DEPEND="
->=sci-CRAN/terra-1.6.2
+>=sci-CRAN/terra-1.6.16
 >=dev-lang/R-3.5.0
 sci-CRAN/Rcpp
->=sci-CRAN/sp-1.4.1
+>=sci-CRAN/sp-1.4.5
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
@@ -39,4 +39,5 @@ RDEPEND="${DEPEND-}
 "
 
 _UNRESOLVED_PACKAGES=( '>=sci-CRAN/rgdal-1.5.8' )
+
 
