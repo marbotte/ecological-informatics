@@ -27,5 +27,6 @@ DEPEND=">=dev-lang/R-4.0.0
 	>=sci-CRAN/plyr-1.8.6
 	>=sci-CRAN/dplyr-1.0.6
 	>=sci-CRAN/lubridate-1.7.10
+	sci-CRAN/MatrixModels
 "
 RDEPEND="${DEPEND-}"
