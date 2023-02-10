@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Simple Features for R'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/sf_1.0-8.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/sf_1.0-9.tar.gz"
 LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_blob r_suggests_covr r_suggests_dplyr
@@ -55,10 +55,10 @@ sci-CRAN/magrittr
 virtual/class
 >=sci-CRAN/Rcpp-0.12.18
 >=dev-lang/R-3.3.0
->=sci-CRAN/units-0.6.0
+>=sci-CRAN/units-0.7.0
 sci-CRAN/rgdal
 >=sci-CRAN/classInt-0.4.1
->=sci-CRAN/s2-1.0.7
+>=sci-CRAN/s2-1.1.0
 "
 RDEPEND="${DEPEND-}
 sci-CRAN/Rcpp
