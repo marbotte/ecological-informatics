@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Harrell Miscellaneous'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/Hmisc_4.7-0.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/Hmisc_4.8-0.tar.gz"
 LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_acepack r_suggests_chron r_suggests_knitr
@@ -42,5 +42,6 @@ DEPEND="virtual/lattice
 	virtual/nnet
 	>=sci-CRAN/htmlTable-1.11.0
 	sci-CRAN/htmltools
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
