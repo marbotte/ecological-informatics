@@ -24,7 +24,6 @@ DEPEND="virtual/MASS
 	sci-CRAN/mvtnorm
 	>=sci-CRAN/Rcpp-0.11.0
 	sci-CRAN/colorspace
-	>=sci-CRAN/phytools-1.5.1
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
