@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/shiny-1.1.0 sci-CRAN/shinydashboard sci-CRAN/shinyWidgets sci-CRAN/DT sci-CRAN/crayon sci-CRAN/rmarkdown sci-CRAN/knitr >=sci-CRAN/data_table-1.11.4 sci-CRAN/ctmm sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/memoise >=sci-CRAN/ggplot2-3.0.0 sci-CRAN/ggrepel sci-CRAN/scales sci-CRAN/gridExtra sci-CRAN/lubridate sci-CRAN/leaflet sci-CRAN/sp sci-CRAN/rgdal sci-CRAN/leaflet_extras sci-CRAN/htmlwidgets sci-CRAN/rgeos sci-CRAN/httr sci-CRAN/stringr sci-CRAN/XML sci-CRAN/xml2 sci-CRAN/zip sci-CRAN/bit64 dev-lang/R:=
+DESCRIPTION=Web App For ctmm
+EAPI=7
+INHERIT=R-packages git-r3
+IUSE=byte-compile
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/shiny-1.1.0 sci-CRAN/shinydashboard sci-CRAN/shinyWidgets sci-CRAN/DT sci-CRAN/crayon sci-CRAN/rmarkdown sci-CRAN/knitr >=sci-CRAN/data_table-1.11.4 sci-CRAN/ctmm sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/memoise >=sci-CRAN/ggplot2-3.0.0 sci-CRAN/ggrepel sci-CRAN/scales sci-CRAN/gridExtra sci-CRAN/lubridate sci-CRAN/leaflet sci-CRAN/sp sci-CRAN/rgdal sci-CRAN/leaflet_extras sci-CRAN/htmlwidgets sci-CRAN/rgeos sci-CRAN/httr sci-CRAN/stringr sci-CRAN/XML sci-CRAN/xml2 sci-CRAN/zip sci-CRAN/bit64 dev-lang/R:=
+SLOT=0
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_md5_=f1fc155992be6161c8d7c2786b5f30de
