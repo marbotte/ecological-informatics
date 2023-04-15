@@ -3,11 +3,11 @@
 
 EAPI=7
 
-inherit R-packages
+inherit R-packages git-r3
 
 DESCRIPTION='Self Organizing Kohonen Map for the analysis of diatom communities'
 KEYWORDS="~amd64"
-SRC_URI="https://github.com/marbotte/diatSOM/archive/master.tar.gz -> ${P}.tar.gz"
+EGIT_REPO_URI="https://github.com/marbotte/diatSOM.git"
 LICENSE='GPL-2+'
 
 IUSE="${IUSE-}"
