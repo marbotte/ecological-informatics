@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages git-r3
 
 DESCRIPTION='Web App For ctmm'
-EGIT_REPO_URI="https://github.com/ctmm-initiative/ctmm.git"
+EGIT_REPO_URI="https://github.com/ctmm-initiative/ctmmweb.git"
 LICENSE='GPL-3'
 
 IUSE="${IUSE-}"
