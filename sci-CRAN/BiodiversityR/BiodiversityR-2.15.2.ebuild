@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Package for Community Ecology an... (see metadata)'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/BiodiversityR_2.14-4.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/BiodiversityR_2.15-2.tar.gz"
 LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_blockcv r_suggests_boot r_suggests_car
