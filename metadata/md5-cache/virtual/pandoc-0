@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for pandoc
+EAPI=8
+KEYWORDS=amd64 ~arm64 ~riscv ~x86
+RDEPEND=|| ( app-text/pandoc-bin[pandoc-symlink] app-text/pandoc app-text/pandoc-cli )
+SLOT=0
+_md5_=4a600509e8bf1d39f0cd2e0bc4d7c210
