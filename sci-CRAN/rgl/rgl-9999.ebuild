@@ -22,7 +22,7 @@ DEPEND=">=dev-lang/R-3.3.0
 "
 RDEPEND="${DEPEND-}
 	virtual/opengl
-	app-text/pandoc
+	virtual/pandoc
 	media-libs/glu
 	${R_SUGGESTS-}
 "

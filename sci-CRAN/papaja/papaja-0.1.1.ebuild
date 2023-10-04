@@ -22,7 +22,7 @@ DEPEND="
 	>=sci-CRAN/rmdfiltr-0.1.3
 	sci-CRAN/yaml
 	sci-CRAN/zip
-	>=app-text/pandoc-2.0
+	virtual/pandoc
 	sci-CRAN/tinytex
 "
 RDEPEND="${DEPEND-}"
