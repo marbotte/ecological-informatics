@@ -31,6 +31,7 @@ DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/statmod
 	sci-CRAN/pbivnorm
 	sci-CRAN/Gmedian
+	sci-CRAN/parsedate
 "
 RDEPEND="${DEPEND-}
 	${R_SUGGESTS-}
