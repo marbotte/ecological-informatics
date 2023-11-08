@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Embedded JavaScript and WebAssembly Engine for R'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/V8_4.3.0.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/V8_4.4.0.tar.gz"
 LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat"
