@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-libs/libsodium dev-lang/R:=
+DESCRIPTION=Bindings to libsodium, an encryption, decryption, signatures, password library
+EAPI=7
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-libs/libsodium dev-lang/R:=
+SLOT=0
+SRC_URI=https://cran.r-project.org/src/contrib/sodium_1.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0738bc275d471b196f87b5c4c7d05357

@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Bindings to libsodium, an encryption, decryption, signatures, password library'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/sodium_1.2.1.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/sodium_1.3.0.tar.gz"
 LICENSE='MIT'
 
 IUSE="${IUSE-}"
