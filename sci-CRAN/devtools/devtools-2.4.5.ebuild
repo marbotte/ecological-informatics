@@ -55,6 +55,9 @@ DEPEND=">=sci-CRAN/cli-3.0.0
 	>=sci-CRAN/remotes-2.3.0
 	>=sci-CRAN/testthat-3.0.2
 	>=sci-CRAN/pkgdown-1.6.1
+	sci-CRAN/miniUI
+	sci-CRAN/profvis
+	sci-CRAN/urlchecker
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 
