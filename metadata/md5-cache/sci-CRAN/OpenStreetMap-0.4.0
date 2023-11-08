@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=>=sci-CRAN/ggplot2-0.9.0 sci-CRAN/rJava sci-CRAN/raster sci-CRAN/rgdal sci-CRAN/sp dev-lang/R:=
 SLOT=0
-SRC_URI=https://cran.r-project.org/src/contrib/OpenStreetMap_0.3.4.tar.gz
+SRC_URI=https://cran.r-project.org/src/contrib/OpenStreetMap_0.4.0.tar.gz
 _eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
-_md5_=72514e0be11ab297c857211335647ece
+_md5_=a5a8bcbe6f51636ac7d26bd2e44daeda
