@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Spatiotemporal Arrays, Raster an... (see metadata)'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/stars_0.6-2.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/stars_0.6-4.tar.gz"
 
 IUSE="${IUSE-} r_suggests_covr r_suggests_cubelyr r_suggests_digest
 	r_suggests_dplyr r_suggests_exactextractr r_suggests_future_apply
