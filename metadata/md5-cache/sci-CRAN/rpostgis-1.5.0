@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-3+
 RDEPEND=>=dev-lang/R-3.3.0 sci-CRAN/sp sci-CRAN/rgdal sci-CRAN/rgeos sci-CRAN/raster >=sci-CRAN/DBI-0.5 sci-CRAN/RPostgreSQL dev-db/postgresql r_suggests_rpostgres? ( sci-CRAN/RPostgres ) r_suggests_wkb? ( sci-CRAN/wkb ) dev-lang/R:=
 SLOT=0
-SRC_URI=http://cran.r-project.org/src/contrib/rpostgis_1.4.3.tar.gz
+SRC_URI=http://cran.r-project.org/src/contrib/rpostgis_1.5.0.tar.gz
 _eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
-_md5_=a9e7c3e84249d65df5045666492e140b
+_md5_=09ceef2ce04e5af7ff9ef1aa55b2e479

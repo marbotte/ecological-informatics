@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='R Interface to a PostGIS Database'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/rpostgis_1.4.3.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/rpostgis_1.5.0.tar.gz"
 LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_rpostgres r_suggests_wkb"
