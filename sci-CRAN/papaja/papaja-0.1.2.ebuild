@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION="Tools to create dynamic, submission-ready manuscripts, which conform to APA"
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/papaja_0.1.1.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/papaja_0.1.2.tar.gz"
 LICENSE='MIT'
 
 IUSE="${IUSE-}"

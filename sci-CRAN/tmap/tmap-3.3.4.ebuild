@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Thematic Maps'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/tmap_3.3-3.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/tmap_3.3-4.tar.gz"
 LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_cartogram r_suggests_covr r_suggests_dplyr

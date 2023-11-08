@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Interactive Viewing of Spatial Data in R'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/mapview_2.11.0.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/mapview_2.11.2.tar.gz"
 LICENSE='GPL-3+'
 
 IUSE="${IUSE-}"

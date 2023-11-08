@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Presentation-Ready Data Summary ... (see metadata)'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/gtsummary_1.7.0.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/gtsummary_1.7.2.tar.gz"
 LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_aod r_suggests_broom_mixed r_suggests_car
