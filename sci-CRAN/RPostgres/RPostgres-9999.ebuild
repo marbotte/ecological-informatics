@@ -6,9 +6,8 @@ EAPI=8
 inherit R-packages
 
 DESCRIPTION='C++ Interface to PostgreSQL'
-KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
-SRC_URI="http://cran.r-project.org/src/contrib/RPostgres_1.4.6.tar.gz"
-LICENSE='MIT'
+EGIT_REPO_URI="https://github.com/r-dbi/RPostgres.git"
+LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_callr r_suggests_covr r_suggests_dbitest
 	r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat"
