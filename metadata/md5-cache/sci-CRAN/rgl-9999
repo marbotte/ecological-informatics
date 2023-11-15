@@ -9,5 +9,5 @@ LICENSE=GPL-2+
 PROPERTIES=live
 RDEPEND=>=dev-lang/R-3.3.0 >=sci-CRAN/htmlwidgets-1.6.0 >=sci-CRAN/knitr-1.33 >=sci-CRAN/jsonlite-0.9.20 sci-CRAN/htmltools sci-CRAN/R6 sci-CRAN/mime sci-CRAN/magrittr sci-CRAN/base64enc virtual/opengl virtual/pandoc media-libs/glu dev-lang/R:=
 SLOT=0
-_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	5133e393e8717a3a093660f990801dc1
 _md5_=5c57352bd1b971f53d7d1d1ead34d93b

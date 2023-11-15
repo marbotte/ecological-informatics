@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-lang/R >=sci-CRAN/ape-4.1 >=sci-CRAN/ggplot2-2.2.1 >=sci-BIOC/phyloseq-1.20.0 sci-CRAN/knitr dev-lang/R:=
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	5133e393e8717a3a093660f990801dc1
 _md5_=0fa250901ea5b4734ada4bb1d9ab17d3

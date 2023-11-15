@@ -11,4 +11,4 @@ RDEPEND=dev-lang/R dev-lang/R:=
 SLOT=0
 SRC_URI=https://cran.r-project.org/src/contrib/juicyjuice_0.1.0.tar.gz
 _eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
-_md5_=0caf8ef0b85c24218849aa386161e14f
+_md5_=0eeb847c5c47ecd3133aabc8e6867f26
