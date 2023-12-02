@@ -59,7 +59,7 @@ DEPEND=">=dev-lang/R-3.4
 	>=sci-CRAN/dplyr-1.0.7
 	>=sci-CRAN/forcats-0.5.1
 	>=sci-CRAN/glue-1.6.0
-	>=sci-CRAN/gt-0.8.0
+	>=sci-CRAN/gt-0.9.0
 	>=sci-CRAN/knitr-1.37
 	>=sci-CRAN/lifecycle-1.0.1
 	>=sci-CRAN/rlang-1.0.3
