@@ -49,5 +49,6 @@ DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/tibble-3.1.6
 	>=sci-CRAN/magrittr-2.0.2
 	>=sci-CRAN/juicyjuice-0.1.0
+	>=sci-CRAN/reactable-0.4.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
