@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/sp-1.0.15 >=dev-lang/R-3.1.1 dev-lang/R:=
+DESCRIPTION=Facilitates mapping by making natural earth map data from http://www.naturalearthdata.com/
+EAPI=7
+INHERIT=R-packages git-r3
+IUSE=byte-compile
+LICENSE=CC0-1.0
+PROPERTIES=live
+RDEPEND=>=sci-CRAN/sp-1.0.15 >=dev-lang/R-3.1.1 dev-lang/R:=
+SLOT=0
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_md5_=a9790356bc31f0f195057b6efbbc7d03
