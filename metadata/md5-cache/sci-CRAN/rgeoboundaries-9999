@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/sp-1.0.15 >=dev-lang/R-3.5 >=sci-CRAN/crul-0.8 >=sci-CRAN/sf-0.9.3 sci-CRAN/hoardr sci-CRAN/glue sci-CRAN/memoise >=sci-CRAN/countrycode-1.2.0 dev-lang/R:=
+DESCRIPTION=A Client to geoBoundaries, A Political Administrative Boundaries Dataset
+EAPI=7
+INHERIT=R-packages git-r3
+IUSE=byte-compile
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=>=sci-CRAN/sp-1.0.15 >=dev-lang/R-3.5 >=sci-CRAN/crul-0.8 >=sci-CRAN/sf-0.9.3 sci-CRAN/hoardr sci-CRAN/glue sci-CRAN/memoise >=sci-CRAN/countrycode-1.2.0 dev-lang/R:=
+SLOT=0
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_md5_=dd1fe81e0f8c87245ab21e267fd5a9cd
