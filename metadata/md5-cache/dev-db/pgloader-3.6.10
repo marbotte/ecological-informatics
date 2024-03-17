@@ -1,0 +1,10 @@
+BDEPEND=dev-lisp/sbcl
+DEFINED_PHASES=install
+DESCRIPTION=Migrate to PostgreSQL in a single command
+EAPI=8
+HOMEPAGE=https://github.com/dimitri/pgloader
+KEYWORDS=~amd64
+LICENSE=POSTGRESQL
+SLOT=0
+SRC_URI=https://github.com/dimitri/pgloader/archive/refs/tags/v3.6.10.tar.gz -> pgloader-3.6.10.tar.gz
+_md5_=b50071c804554075f546c403fae6c5e6
