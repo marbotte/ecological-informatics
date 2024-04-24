@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Custom Inputs Widgets for Shiny // Collection of custom input
+		controls and user interface components for 'Shiny'
+		applications. Give your applications a unique and colorful
+		style !
+	</longdescription>
+</pkgmetadata>
