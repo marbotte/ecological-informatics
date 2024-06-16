@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/sjmisc sci-CRAN/emmeans sci-CRAN/magrittr sci-CRAN/insight virtual/MASS sci-CRAN/bayestestR sci-CRAN/lme4 sci-CRAN/performance sci-CRAN/modelr sci-CRAN/tidyr sci-CRAN/purrr sci-CRAN/sjlabelled sci-CRAN/rlang >=dev-lang/R-3.4 sci-CRAN/broom sci-CRAN/effectsize sci-CRAN/parameters sci-CRAN/dplyr sci-CRAN/datawizard dev-lang/R:=
+DESCRIPTION=Collection of Convenient Functio... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/sjmisc sci-CRAN/emmeans sci-CRAN/magrittr sci-CRAN/insight virtual/MASS sci-CRAN/bayestestR sci-CRAN/lme4 sci-CRAN/performance sci-CRAN/modelr sci-CRAN/tidyr sci-CRAN/purrr sci-CRAN/sjlabelled sci-CRAN/rlang >=dev-lang/R-3.4 sci-CRAN/broom sci-CRAN/effectsize sci-CRAN/parameters sci-CRAN/dplyr sci-CRAN/datawizard dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sjstats_0.19.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6f2e19d4f96fe75fcaab7f91fbb2802d
