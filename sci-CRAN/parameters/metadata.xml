@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Processing of Model Parameters // Utilities for processing the
+		parameters of various statistical models. Beyond computing p
+		values, CIs, and other indices for a wide variety of models
+		(see list of supported models using the function
+		'insight::supported_models()'), this package implements
+		features like bootstrapping or simulating of parameters and
+		models, feature reduction (feature extraction and variable
+		selection) as well as functions to describe data and variable
+		characteristics (e.g. skewness, kurtosis, smoothness or
+		distribution).
+	</longdescription>
+</pkgmetadata>
