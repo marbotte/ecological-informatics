@@ -1,13 +1,13 @@
 BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst unpack
-DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/assertthat >=sci-CRAN/sf-1.0.12 sci-CRAN/rlang sci-CRAN/units sci-CRAN/tidyselect >=sci-CRAN/dplyr-1.1.0 sci-CRAN/tibble >=sci-CRAN/vroom-1.6.1 sci-CRAN/cli >=sci-CRAN/vctrs-0.5.2 sci-CRAN/bit64 dev-lang/R:=
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/assertthat >=sci-CRAN/sf-1.0.16 sci-CRAN/rlang sci-CRAN/units sci-CRAN/tidyselect >=sci-CRAN/dplyr-1.1.0 sci-CRAN/tibble >=sci-CRAN/vroom-1.6.1 sci-CRAN/cli >=sci-CRAN/vctrs-0.5.2 sci-CRAN/bit64 dev-lang/R:=
 DESCRIPTION=Processing and analysing animal trajectories
 EAPI=7
 INHERIT=R-packages git-r3
 IUSE=byte-compile
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/assertthat >=sci-CRAN/sf-1.0.12 sci-CRAN/rlang sci-CRAN/units sci-CRAN/tidyselect >=sci-CRAN/dplyr-1.1.0 sci-CRAN/tibble >=sci-CRAN/vroom-1.6.1 sci-CRAN/cli >=sci-CRAN/vctrs-0.5.2 sci-CRAN/bit64 dev-lang/R:=
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/assertthat >=sci-CRAN/sf-1.0.16 sci-CRAN/rlang sci-CRAN/units sci-CRAN/tidyselect >=sci-CRAN/dplyr-1.1.0 sci-CRAN/tibble >=sci-CRAN/vroom-1.6.1 sci-CRAN/cli >=sci-CRAN/vctrs-0.5.2 sci-CRAN/bit64 dev-lang/R:=
 SLOT=0
-_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	5133e393e8717a3a093660f990801dc1
-_md5_=44aeda7b9134b7839aa8e8d012ad2d30
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=4b7062479e2af889877a2e10cc5c672f

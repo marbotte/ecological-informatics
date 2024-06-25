@@ -14,7 +14,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-4.1.0
 	sci-CRAN/assertthat
-	>=sci-CRAN/sf-1.0.12
+	>=sci-CRAN/sf-1.0.16
 	sci-CRAN/rlang
 	sci-CRAN/units
 	sci-CRAN/tidyselect
