@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-}"
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/Rcpp-0.11.0
+	>=sci-CRAN/Rcpp-1.0.8
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

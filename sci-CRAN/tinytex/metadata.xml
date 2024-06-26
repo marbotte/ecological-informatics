@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Helper Functions to Install and Maintain TeX Live, and Compile
+		LaTeX Documents // Helper functions to install and maintain the
+		'LaTeX' distribution named 'TinyTeX'
+		(https://yihui.org/tinytex/), a lightweight, cross-platform,
+		portable, and easy-to-maintain version of 'TeX Live'. This
+		package also contains helper functions to compile 'LaTeX'
+		documents, and install missing 'LaTeX' packages automatically.
+	</longdescription>
+</pkgmetadata>

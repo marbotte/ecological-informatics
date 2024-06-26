@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 >=sci-CRAN/yaml-2.1.19 >=sci-CRAN/highr-0.11 >=sci-CRAN/evaluate-0.15 >=sci-CRAN/xfun-0.44 dev-lang/R:=
+DESCRIPTION=A General-Purpose Package for Dy... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.3.0 >=sci-CRAN/yaml-2.1.19 >=sci-CRAN/highr-0.11 >=sci-CRAN/evaluate-0.15 >=sci-CRAN/xfun-0.44 virtual/pandoc dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/knitr_1.47.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6fc0817832f0e348df391993d97570f5
