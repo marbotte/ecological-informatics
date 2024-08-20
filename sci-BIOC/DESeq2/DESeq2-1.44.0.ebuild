@@ -7,10 +7,9 @@ inherit R-packages
 
 DESCRIPTION='Differential gene expression ana... (see metadata)'
 KEYWORDS="~amd64"
-SRC_URI="https://bioconductor.org/packages/release/bioc/src/contrib/DESeq2_1.36.0.tar.gz"
+SRC_URI="https://bioconductor.org/packages/release/bioc/src/contrib/DESeq2_${PV}.tar.gz"
 LICENSE='GPL-3+'
 
-IUSE="${IUSE-}"
 DEPEND="
 >=sci-BIOC/S4Vectors-0.23.18
 sci-BIOC/IRanges
