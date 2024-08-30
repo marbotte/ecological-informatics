@@ -10,7 +10,7 @@ KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
 SRC_URI="https://cran.r-project.org/src/contrib/MASS_7.3-61.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND=">=dev-lang/R-4.0
+DEPEND=">=dev-lang/R-4.4.0
 	dev-lang/R[minimal]
 "
 RDEPEND="${DEPEND-}"
