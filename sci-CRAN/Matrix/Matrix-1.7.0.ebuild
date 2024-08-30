@@ -12,6 +12,6 @@ LICENSE='GPL-2+'
 
 DEPEND="virtual/lattice
 	dev-lang/R[minimal]
-	>=dev-lang/R-3.5.0
+	>=dev-lang/R-4.4.0
 "
 RDEPEND="${DEPEND-}"
