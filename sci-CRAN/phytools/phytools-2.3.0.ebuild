@@ -7,18 +7,9 @@ inherit R-packages
 
 DESCRIPTION='Phylogenetic Tools for Comparati... (see metadata)'
 KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
-SRC_URI="http://cran.r-project.org/src/contrib/phytools_2.0-3.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/phytools_2.3-0.tar.gz"
 LICENSE='GPL-2+'
 
-IUSE="${IUSE-} r_suggests_animation r_suggests_geiger r_suggests_plotrix
-	r_suggests_rcolorbrewer r_suggests_rgl"
-R_SUGGESTS="
-	r_suggests_animation? ( sci-CRAN/animation )
-	r_suggests_geiger? ( sci-CRAN/geiger )
-	r_suggests_plotrix? ( sci-CRAN/plotrix )
-	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
-	r_suggests_rgl? ( sci-CRAN/rgl )
-"
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/maps
 	sci-CRAN/optimParallel
@@ -37,4 +28,4 @@ DEPEND=">=dev-lang/R-3.5.0
 	virtual/MASS
 	sci-CRAN/clusterGeneration
 "
-RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
+RDEPEND="${DEPEND-}"
