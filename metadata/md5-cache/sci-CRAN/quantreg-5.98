@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=>=dev-lang/R-3.5 virtual/survival virtual/Matrix sci-CRAN/SparseM virtual/Matrix virtual/MASS sci-CRAN/MatrixModels dev-lang/R:=
 SLOT=0
-SRC_URI=http://cran.r-project.org/src/contrib/Archive/quantreg/quantreg_5.94.tar.gz
+SRC_URI=http://cran.r-project.org/src/contrib/quantreg_5.98.tar.gz
 _eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
-_md5_=68626d11329cc4b5ae89c471b62a3ebb
+_md5_=9c561307692cc0ba4ba3873bcda91cc9
