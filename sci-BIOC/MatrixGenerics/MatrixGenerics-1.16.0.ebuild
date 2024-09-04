@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='S4 Generic Summary Statistic Functions that Operate on Matrix-Like Objects'
 KEYWORDS="~amd64"
-SRC_URI="https://bioconductor.org/packages/release/bioc/src/contrib/MatrixGenerics_1.8.1.tar.gz"
+SRC_URI="https://bioconductor.org/packages/release/bioc/src/contrib/MatrixGenerics_${PV}.tar.gz"
 LICENSE='Artistic-2'
 
 IUSE="${IUSE-}"
@@ -15,7 +15,7 @@ R_SUGGESTS="
 "
 DEPEND="
 >=dev-lang/R-4.0.0
->=sci-CRAN/matrixStats-0.60.1
+>=sci-CRAN/matrixStats-1.0.0
 "
 RDEPEND="${DEPEND-}"
 
