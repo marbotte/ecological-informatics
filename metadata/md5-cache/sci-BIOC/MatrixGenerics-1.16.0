@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/matrixStats-1.0.0 dev-lang/R:=
+DESCRIPTION=S4 Generic Summary Statistic Functions that Operate on Matrix-Like Objects
+EAPI=7
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64
+LICENSE=Artistic-2
+RDEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/matrixStats-1.0.0 dev-lang/R:=
+SLOT=0
+SRC_URI=https://bioconductor.org/packages/release/bioc/src/contrib/MatrixGenerics_1.16.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=00a949a15158e4e5f5947ea41df2fddf
