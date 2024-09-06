@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/boot sci-CRAN/broom sci-CRAN/cowplot sci-CRAN/Deriv sci-CRAN/dplyr sci-CRAN/ggplot2 virtual/MASS virtual/Matrix sci-CRAN/modelr sci-CRAN/microbenchmark sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Groupwise Statistics, LSmeans, L... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/boot sci-CRAN/broom sci-CRAN/cowplot sci-CRAN/Deriv sci-CRAN/dplyr sci-CRAN/ggplot2 virtual/MASS virtual/Matrix sci-CRAN/modelr sci-CRAN/microbenchmark sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/tidyr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/doBy_4.6.22.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=37ce80143b29d8056b08dfbd106d3f39
