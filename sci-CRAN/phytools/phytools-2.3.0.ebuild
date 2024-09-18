@@ -27,5 +27,6 @@ DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/doParallel
 	virtual/MASS
 	sci-CRAN/clusterGeneration
+	sci-CRAN/DEoptim
 "
 RDEPEND="${DEPEND-}"
