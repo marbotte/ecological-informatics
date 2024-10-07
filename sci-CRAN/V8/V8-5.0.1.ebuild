@@ -7,7 +7,7 @@ EAPI=7
 SLOT="0"
 DESCRIPTION='Embedded JavaScript and WebAssembly Engine for R'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/V8_${PV}.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/V8_${PV}.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=sci-CRAN/Rcpp-0.12.12
