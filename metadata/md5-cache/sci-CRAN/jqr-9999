@@ -1,0 +1,12 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.2 sci-CRAN/magrittr sci-CRAN/lazyeval app-misc/jq dev-lang/R:=
+DESCRIPTION=Client for 'jq', a 'JSON' Processor
+EAPI=7
+INHERIT=R-packages
+IUSE=byte-compile
+LICENSE=MIT
+RDEPEND=dev-lang/R:=
+SLOT=0
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a1bbe203e66957ed36d97060719243a6
