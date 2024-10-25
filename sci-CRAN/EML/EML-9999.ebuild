@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages git-r3
 
 DESCRIPTION='Read and Write Ecological Metadata Language Files'
-EGIT_REPO_URI="https://github.com/ropensci/EML,git"
+EGIT_REPO_URI="https://github.com/ropensci/EML.git"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/xml2
