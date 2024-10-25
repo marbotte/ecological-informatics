@@ -6,10 +6,8 @@ EAPI=7
 inherit R-packages git-r3
 
 DESCRIPTION="Client for 'jq', a 'JSON' Processor"
-EGIT_REPO_URI="https://github.com/ropensci/jqri.git"
+EGIT_REPO_URI="https://github.com/ropensci/jqr.git"
 LICENSE='MIT'
-
-	
 DEPEND=">=dev-lang/R-3.1.2
 	sci-CRAN/magrittr
 	sci-CRAN/lazyeval
