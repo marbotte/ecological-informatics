@@ -3,12 +3,11 @@
 
 EAPI=7
 
-inherit R-packages
+inherit R-packages git-r3
 
 DESCRIPTION='Geographic Data Analysis and Modeling'
-KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/raster/raster_$(ver_cut 1-2)-$(ver_cut 3).tar.gz"
 LICENSE='GPL-3+'
+EGIT_REPO_URI="https://github.com/rspatial/raster.git"
 
 DEPEND="
 >=sci-CRAN/terra-1.6.41

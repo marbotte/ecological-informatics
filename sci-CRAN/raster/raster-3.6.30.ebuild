@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Geographic Data Analysis and Modeling'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/raster/raster_$(ver_cut 1-2)-$(ver_cut 3).tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/raster_$(ver_cut 1-2)-$(ver_cut 3).tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="
