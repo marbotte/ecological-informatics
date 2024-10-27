@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit R-packages
+inherit R-packages git-r3
 
 DESCRIPTION='Create Interactive Web Maps with... (see metadata)'
 LICENSE='GPL-3'
