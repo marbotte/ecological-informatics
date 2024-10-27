@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Simple Features for R'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/sf/sf_$(ver_cut 1-2)-16.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/sf_$(ver_cut 1-2)-18.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="

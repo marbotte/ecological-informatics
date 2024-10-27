@@ -3,12 +3,11 @@
 
 EAPI=7
 
-inherit R-packages
+inherit R-packages git-r3
 
 DESCRIPTION='Simple Features for R'
-KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/sf/sf_$(ver_cut 1-2)-16.tar.gz"
 LICENSE='GPL-2'
+EGIT_REPO_URI="https://github.com/r-spatial/sf.git"
 
 DEPEND="
 >=sci-CRAN/DBI-0.8
