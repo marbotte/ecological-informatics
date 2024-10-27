@@ -3,11 +3,10 @@
 
 EAPI=7
 
-inherit R-packages
+inherit R-packages git-r3
 
 DESCRIPTION='R Commander'
-KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/Archive/Rcmdr/Rcmdr_2.7-2.tar.gz"
+EGIT_REPO_URI="https://github.com/RCmdr-Project/rcmdr.git"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0

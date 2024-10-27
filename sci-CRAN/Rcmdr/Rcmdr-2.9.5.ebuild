@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='R Commander'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/Archive/Rcmdr/Rcmdr_2.7-2.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/Rcmdr_2.9-5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
