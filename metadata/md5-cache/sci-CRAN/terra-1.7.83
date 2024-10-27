@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-3+
 RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/Rcpp-1.0.10 sci-CRAN/sf >=sci-libs/geos-3.4.0 >=sci-libs/gdal-2.2.3 >=sci-libs/proj-4.9.3 >=dev-db/sqlite-3.0 r_suggests_ncdf4? ( sci-CRAN/ncdf4 ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
 SLOT=0
-SRC_URI=https://cran.r-project.org/src/contrib/Archive/terra/terra_1.7-39.tar.gz
+SRC_URI=https://cran.r-project.org/src/contrib/terra_1.7-83.tar.gz
 _eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
-_md5_=16c33ea98cb8077e323db5c23e24cef4
+_md5_=5f99d1f69cabe08ba314b919d0f5e5ea

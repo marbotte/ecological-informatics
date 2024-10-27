@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Spatial Data Analysis'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/terra/terra_$(ver_cut 1-2)-$(ver_cut 3).tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/terra_$(ver_cut 1-2)-$(ver_cut 3).tar.gz"
 LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_ncdf4 r_suggests_tinytest"
