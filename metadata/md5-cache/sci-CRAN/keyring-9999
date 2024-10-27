@@ -1,14 +1,13 @@
-BDEPEND=dev-lang/R:=
+BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/assertthat sci-CRAN/askpass sci-CRAN/openssl sci-CRAN/R6 sci-CRAN/sodium sci-CRAN/yaml sci-CRAN/filelock sci-CRAN/rappdirs app-crypt/libsecret dev-lang/R:=
 DESCRIPTION=Access the system credential store from R
 EAPI=7
-INHERIT=R-packages
+INHERIT=R-packages git-r3
 IUSE=byte-compile
-KEYWORDS=~amd64
 LICENSE=MIT
+PROPERTIES=live
 RDEPEND=sci-CRAN/assertthat sci-CRAN/askpass sci-CRAN/openssl sci-CRAN/R6 sci-CRAN/sodium sci-CRAN/yaml sci-CRAN/filelock sci-CRAN/rappdirs app-crypt/libsecret dev-lang/R:=
 SLOT=0
-SRC_URI=https://cran.r-project.org/src/contrib/Archive/keyring/keyring_1.3.1.tar.gz
-_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
-_md5_=8aa9f18d346413df52143f62429987c7
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=3a7d84e46d3099856ef3365138d28f45

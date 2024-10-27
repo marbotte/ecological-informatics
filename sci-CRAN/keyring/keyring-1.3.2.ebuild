@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Access the system credential store from R'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/keyring/keyring_${PV}.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/keyring_${PV}.tar.gz"
 LICENSE='MIT'
 
 IUSE="${IUSE-}"

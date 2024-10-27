@@ -3,11 +3,10 @@
 
 EAPI=7
 
-inherit R-packages
+inherit R-packages git-r3
 
 DESCRIPTION='Access the system credential store from R'
-KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/keyring/keyring_${PV}.tar.gz"
+EGIT_REPO_URI="https://github.com/r-lib/keyring.git"
 LICENSE='MIT'
 
 IUSE="${IUSE-}"
