@@ -3,11 +3,10 @@
 
 EAPI=7
 
-inherit R-packages
+inherit R-packages git-r3
 
 DESCRIPTION='Bindings to libsodium, an encryption, decryption, signatures, password library'
-KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/sodium/sodium_${PV}.tar.gz"
+EGIT_REPO_URI="https://github.com/r-lib/sodium.git"
 LICENSE='MIT'
 
 IUSE="${IUSE-}"

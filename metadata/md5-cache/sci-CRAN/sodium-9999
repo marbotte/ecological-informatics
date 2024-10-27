@@ -1,14 +1,13 @@
-BDEPEND=dev-lang/R:=
+BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=dev-libs/libsodium dev-lang/R:=
 DESCRIPTION=Bindings to libsodium, an encryption, decryption, signatures, password library
 EAPI=7
-INHERIT=R-packages
+INHERIT=R-packages git-r3
 IUSE=byte-compile
-KEYWORDS=~amd64
 LICENSE=MIT
+PROPERTIES=live
 RDEPEND=dev-libs/libsodium dev-lang/R:=
 SLOT=0
-SRC_URI=https://cran.r-project.org/src/contrib/Archive/sodium/sodium_1.3.0.tar.gz
-_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
-_md5_=ec889d23d88e7ba523799095dbcd3de6
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=256277c3aa3a07ef3f8d77b3452514e0
