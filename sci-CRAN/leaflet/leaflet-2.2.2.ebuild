@@ -7,23 +7,22 @@ inherit R-packages
 
 DESCRIPTION='Create Interactive Web Maps with... (see metadata)'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/Archive/leaflet/leaflet_${PV}.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/leaflet_${PV}.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/crosstalk
+	sci-CRAN/htmltools
+	>=sci-CRAN/htmlwidgets-1.5.4
+	>=sci-CRAN/leaflet_providers-2.0.0
 	sci-CRAN/magrittr
 	sci-CRAN/markdown
-	>=sci-CRAN/scales-1.0.0
-	>=sci-CRAN/viridis-0.5.1
-	sci-CRAN/htmltools
-	sci-CRAN/base64enc
-	>=sci-CRAN/htmlwidgets-1.5.4
 	sci-CRAN/png
+	>=sci-CRAN/raster-3.6.3
 	sci-CRAN/RColorBrewer
-	sci-CRAN/raster
+	>=sci-CRAN/scales-1.0.0
 	sci-CRAN/sp
-	>=sci-CRAN/leaflet_providers-1.8.0
-	sci-CRAN/rgdal
+	sci-CRAN/viridisLite
+	sci-CRAN/xfun
 "
 RDEPEND="${DEPEND-}"

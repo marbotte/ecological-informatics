@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/terra-1.6.41 >=dev-lang/R-3.5.0 sci-CRAN/Rcpp >=sci-CRAN/sp-1.4.5 >=sci-CRAN/rgdal-1.5.8 dev-lang/R:=
+DESCRIPTION=Geographic Data Analysis and Modeling
+EAPI=7
+INHERIT=R-packages git-r3
+IUSE=byte-compile
+LICENSE=GPL-3+
+PROPERTIES=live
+RDEPEND=>=sci-CRAN/terra-1.6.41 >=dev-lang/R-3.5.0 sci-CRAN/Rcpp >=sci-CRAN/sp-1.4.5 >=sci-CRAN/rgdal-1.5.8 sci-CRAN/Rcpp dev-lang/R:=
+SLOT=0
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=ea239ff08e6d33450fd87e3be4f4b073
