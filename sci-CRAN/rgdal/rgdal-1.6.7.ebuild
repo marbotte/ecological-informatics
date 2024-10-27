@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Bindings for the "Geospatial" Data Abstraction Library'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/rgdal/rgdal_1.6-3.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/Archive/rgdal/rgdal_1.6-7.tar.gz"
 LICENSE='GPL-2+'
 
 IUSE="${IUSE-} 
