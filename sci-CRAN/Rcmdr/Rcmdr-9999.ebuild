@@ -16,7 +16,6 @@ DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/lme4
 	>=sci-CRAN/effects-4.0.3
 	dev-lang/R[tk]
-	dev-lang/R[tk]
 	sci-CRAN/abind
 	sci-CRAN/tcltk2
 "
