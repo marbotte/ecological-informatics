@@ -1,12 +1,13 @@
-BDEPEND=dev-lang/R:=
+BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/crosstalk sci-CRAN/htmltools >=sci-CRAN/htmlwidgets-1.5.4 >=sci-CRAN/leaflet_providers-2.0.0 sci-CRAN/magrittr sci-CRAN/markdown sci-CRAN/png >=sci-CRAN/raster-3.6.3 sci-CRAN/RColorBrewer >=sci-CRAN/scales-1.0.0 sci-CRAN/sp sci-CRAN/viridisLite sci-CRAN/xfun dev-lang/R:=
 DESCRIPTION=Create Interactive Web Maps with... (see metadata)
 EAPI=7
-INHERIT=R-packages
+INHERIT=R-packages git-r3
 IUSE=byte-compile
 LICENSE=GPL-3
+PROPERTIES=live
 RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/crosstalk sci-CRAN/htmltools >=sci-CRAN/htmlwidgets-1.5.4 >=sci-CRAN/leaflet_providers-2.0.0 sci-CRAN/magrittr sci-CRAN/markdown sci-CRAN/png >=sci-CRAN/raster-3.6.3 sci-CRAN/RColorBrewer >=sci-CRAN/scales-1.0.0 sci-CRAN/sp sci-CRAN/viridisLite sci-CRAN/xfun dev-lang/R:=
 SLOT=0
-_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
-_md5_=8c6b03dcfd195d1d79393da1a3511ab3
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=3b1afd8d34296ed9755ad49b711c53c2
