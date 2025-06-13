@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=sci-CRAN/askpass >=sci-CRAN/openssl-1.4.1 sci-CRAN/sys >=sci-CRAN/credentials-1.2.1 >=sci-CRAN/rstudioapi-0.11 >=sci-CRAN/zip-2.1.0 dev-libs/libgit2 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
 SLOT=0
-SRC_URI=https://cran.r-project.org/src/contrib/gert_2.0.0.tar.gz
+SRC_URI=https://cran.r-project.org/src/contrib/Archive/gert/gert_2.0.0.tar.gz
 _eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
-_md5_=4d20f1c0ae140333065da993b52a2a54
+_md5_=a478d063f534281b33f8a3a8a3f12053

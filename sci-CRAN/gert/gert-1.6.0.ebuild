@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Simple Git Client for R'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/gert_1.6.0.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/Archive/gert/gert_1.6.0.tar.gz"
 LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_knitr r_suggests_rmarkdown r_suggests_spelling

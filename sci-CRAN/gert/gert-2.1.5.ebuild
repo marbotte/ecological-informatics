@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages
 
 DESCRIPTION='Simple Git Client for R'
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/gert/gert_${PV}.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/gert_${PV}.tar.gz"
 LICENSE='MIT'
 KEYWORDS="~amd64"
 
