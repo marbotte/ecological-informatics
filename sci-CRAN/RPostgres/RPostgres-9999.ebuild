@@ -16,6 +16,7 @@ DEPEND=">=sci-CRAN/DBI-1.1.0
 	>=sci-CRAN/hms-1.0.0
 	sci-CRAN/lubridate
 	sci-CRAN/withr
+	sci-CRAN/pkgconfig
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/cpp11
