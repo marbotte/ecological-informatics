@@ -14,7 +14,7 @@ IUSE="${IUSE-}"
 R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-cran/taxize-0.10.0
+	>=sci-CRAN/taxize-0.10.0
 
 "
 RDEPEND="${DEPEND-}
