@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Automate Package and Project Setup'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/usethis_${PV}.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/Archive/usethis/usethis_${PV}.tar.gz"
 LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_covr r_suggests_knitr r_suggests_magick
