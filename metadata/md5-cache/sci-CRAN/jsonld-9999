@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl] dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/jsonlite >=sci-CRAN/curl-2.7 dev-lang/R:= dev-lang/R:=
+DESCRIPTION=JSON for Linking Data
+EAPI=7
+INHERIT=R-packages git-r3 R-packages git-r3
+IUSE=byte-compile byte-compile
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=sci-CRAN/jsonlite >=sci-CRAN/curl-2.7 dev-lang/R:= dev-lang/R:=
+SLOT=0
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=df7d898385abae6825a2dc0871e07de4

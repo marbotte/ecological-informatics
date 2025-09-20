@@ -9,5 +9,5 @@ LICENSE=GPL-3+
 PROPERTIES=live
 RDEPEND=>=dev-lang/R-3.4 sci-CRAN/reshape2 sci-CRAN/ggplot2 sci-CRAN/Rcpp dev-lang/R:=
 SLOT=0
-_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=75d8aa5e0b5c065ff36b5fae71b63a70

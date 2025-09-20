@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/plyr sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/vegan sci-CRAN/tidyr sci-CRAN/purrr sci-CRAN/data_table sci-CRAN/plotly sci-CRAN/stringr sci-CRAN/scales sci-CRAN/RColorBrewer sci-CRAN/ggrepel sci-CRAN/ape sci-CRAN/crayon sci-CRAN/cli dev-lang/R:=
 SLOT=0
-_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=871e48898aa5af1b8f661721b7d8d478

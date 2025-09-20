@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-lang/R:=
 SLOT=0
 _eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=3d0b611bd9e5e32c5381722ddaa26609
+_md5_=b9712ae75544da0fc02bdbab49893d8a

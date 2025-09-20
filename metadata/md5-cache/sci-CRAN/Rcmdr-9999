@@ -1,13 +1,13 @@
 BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst unpack
-DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/car-3.0.8 >=sci-CRAN/relimp-1.0.5 >=sci-CRAN/RcmdrMisc-2.7.1 sci-CRAN/lme4 >=sci-CRAN/effects-4.0.3 dev-lang/R[tk] dev-lang/R[tk] sci-CRAN/abind sci-CRAN/tcltk2 dev-lang/R:=
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/car-3.0.8 >=sci-CRAN/relimp-1.0.5 >=sci-CRAN/RcmdrMisc-2.7.1 sci-CRAN/lme4 >=sci-CRAN/effects-4.0.3 dev-lang/R[tk] sci-CRAN/abind sci-CRAN/tcltk2 dev-lang/R:=
 DESCRIPTION=R Commander
 EAPI=7
 INHERIT=R-packages git-r3
 IUSE=byte-compile
 LICENSE=GPL-2+
 PROPERTIES=live
-RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/car-3.0.8 >=sci-CRAN/relimp-1.0.5 >=sci-CRAN/RcmdrMisc-2.7.1 sci-CRAN/lme4 >=sci-CRAN/effects-4.0.3 dev-lang/R[tk] dev-lang/R[tk] sci-CRAN/abind sci-CRAN/tcltk2 dev-lang/R:=
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/car-3.0.8 >=sci-CRAN/relimp-1.0.5 >=sci-CRAN/RcmdrMisc-2.7.1 sci-CRAN/lme4 >=sci-CRAN/effects-4.0.3 dev-lang/R[tk] sci-CRAN/abind sci-CRAN/tcltk2 dev-lang/R:=
 SLOT=0
 _eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=32535fc16d0a65d9bcc01940126314b5
+_md5_=01dc38dfcc7d3c7ef51a905151129923

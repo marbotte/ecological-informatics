@@ -9,5 +9,5 @@ LICENSE=GPL-3+
 PROPERTIES=live
 RDEPEND=>=sci-CRAN/geosphere-1.4.3 sci-CRAN/sp sci-CRAN/rgdal >=sci-CRAN/raster-3.6.14 sci-CRAN/Rcpp sci-CRAN/httr sci-CRAN/xml2 sci-CRAN/memoise dev-lang/R:=
 SLOT=0
-_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=b1ee791eb8c9cb652c4d5f640c91fd40
