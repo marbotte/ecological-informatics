@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=sci-CRAN/coda sci-CRAN/combinat sci-CRAN/clusterGeneration >=sci-CRAN/phangorn-2.3.1 >=dev-lang/R-3.5.0 sci-CRAN/numDeriv virtual/nlme virtual/cluster virtual/MASS sci-CRAN/maps sci-CRAN/DEoptim sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/optimParallel sci-CRAN/scatterplot3d >=sci-CRAN/ape-5.7 sci-CRAN/expm sci-CRAN/mnormt dev-lang/R:=
 SLOT=0
 _eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=24399f19693d380d24747068f26ed488
+_md5_=3ef24f5198c219d58effd0e87dba27e5

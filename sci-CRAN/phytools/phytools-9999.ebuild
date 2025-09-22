@@ -6,7 +6,7 @@ EAPI=8
 inherit R-packages git-r3
 
 DESCRIPTION='Phylogenetic Tools for Comparati... (see metadata)'
-EGIT_REPO_URI="https://github.com/liamrevell/phytools,git"
+EGIT_REPO_URI="https://github.com/liamrevell/phytools.git"
 LICENSE='GPL-2+'
 DEPEND="sci-CRAN/coda
 	sci-CRAN/combinat
