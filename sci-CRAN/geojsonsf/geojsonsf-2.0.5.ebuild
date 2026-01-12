@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='GeoJSON to Simple Feature Converter'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/Archive/geojsonsf/geojsonsf_${PV}.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/geojsonsf_${PV}.tar.gz"
 LICENSE='MIT'
 
 IUSE="${IUSE-}"
@@ -19,5 +19,5 @@ RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
 	>=sci-CRAN/rapidjsonr-1.2.0
 	>=sci-CRAN/jsonify-1.1.1
-	>=sci-CRAN/sfheaders-0.2.2
+	>=sci-CRAN/sfheaders-0.4.5
 "
