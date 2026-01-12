@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Quantile Regression'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/quantreg_${PV}.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/Archive/quantreg/quantreg_${PV}.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5
