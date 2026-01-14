@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Cross-Platform File System Opera... (see metadata)'
 KEYWORDS="~amd64"
-SRC_URI="https://cran.r-project.org/src/contrib/Archive/fs/fs_${PV}.tar.gz"
+SRC_URI="https://cran.r-project.org/src/contrib/fs_${PV}.tar.gz"
 
 LICENSE='MIT'
 
