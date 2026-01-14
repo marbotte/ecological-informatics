@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 dev-lang/R:=
+DESCRIPTION=Cross-Platform File System Opera... (see metadata)
+EAPI=8
+INHERIT=R-packages git-r3
+IUSE=byte-compile
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=>=dev-lang/R-3.6 dev-lang/R:=
+SLOT=0
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=8b8abd1c0f2d0bb89fe87ba01c70c278
