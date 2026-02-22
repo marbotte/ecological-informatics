@@ -16,7 +16,7 @@ virtual/class
 >=sci-CRAN/Rcpp-0.12.18
 >=dev-lang/R-3.3.0
 >=sci-CRAN/units-0.7.0
-sci-CRAN/rgdal
+sci-CRAN/grid
 >=sci-CRAN/classInt-0.4.1
 >=sci-CRAN/s2-1.1.0
 "

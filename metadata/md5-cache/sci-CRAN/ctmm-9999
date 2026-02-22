@@ -1,6 +1,6 @@
 BDEPEND=dev-lang/R:= >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst unpack
-DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/Bessel sci-CRAN/data_table sci-CRAN/digest sci-CRAN/expm sci-CRAN/fasttime sci-CRAN/gsl sci-CRAN/manipulate sci-CRAN/numDeriv sci-CRAN/pbivnorm sci-CRAN/pracma sci-CRAN/raster sci-CRAN/rgdal sci-CRAN/shape sci-CRAN/sp sci-CRAN/statmod sci-CRAN/pbivnorm sci-CRAN/Gmedian sci-CRAN/parsedate dev-lang/R:=
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/Bessel sci-CRAN/data_table sci-CRAN/digest sci-CRAN/expm sci-CRAN/fasttime sci-CRAN/gsl sci-CRAN/manipulate sci-CRAN/numDeriv sci-CRAN/pbivnorm sci-CRAN/pracma sci-CRAN/raster sci-CRAN/shape sci-CRAN/sf sci-CRAN/sp sci-CRAN/terra sci-CRAN/statmod sci-CRAN/pbivnorm sci-CRAN/Gmedian sci-CRAN/parsedate dev-lang/R:=
 DESCRIPTION=Continuous-Time Movement Modeling
 EAPI=7
 INHERIT=R-packages git-r3
@@ -8,7 +8,7 @@ IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/Bessel sci-CRAN/data_table sci-CRAN/digest sci-CRAN/expm sci-CRAN/fasttime sci-CRAN/gsl sci-CRAN/manipulate sci-CRAN/numDeriv sci-CRAN/pbivnorm sci-CRAN/pracma sci-CRAN/raster sci-CRAN/rgdal sci-CRAN/shape sci-CRAN/sp sci-CRAN/statmod sci-CRAN/pbivnorm sci-CRAN/Gmedian sci-CRAN/parsedate dev-lang/R:=
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/Bessel sci-CRAN/data_table sci-CRAN/digest sci-CRAN/expm sci-CRAN/fasttime sci-CRAN/gsl sci-CRAN/manipulate sci-CRAN/numDeriv sci-CRAN/pbivnorm sci-CRAN/pracma sci-CRAN/raster sci-CRAN/shape sci-CRAN/sf sci-CRAN/sp sci-CRAN/terra sci-CRAN/statmod sci-CRAN/pbivnorm sci-CRAN/Gmedian sci-CRAN/parsedate dev-lang/R:=
 SLOT=0
 _eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=a8968f1e161aa7cdf4ffa754e0981937
+_md5_=660690ca838b7290c72d242d125f791e

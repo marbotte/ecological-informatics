@@ -25,9 +25,10 @@ DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/pbivnorm
 	sci-CRAN/pracma
 	sci-CRAN/raster
-	sci-CRAN/rgdal
 	sci-CRAN/shape
+	sci-CRAN/sf
 	sci-CRAN/sp
+	sci-CRAN/terra
 	sci-CRAN/statmod
 	sci-CRAN/pbivnorm
 	sci-CRAN/Gmedian

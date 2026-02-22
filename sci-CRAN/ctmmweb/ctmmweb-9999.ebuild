@@ -13,31 +13,32 @@ IUSE="${IUSE-}"
 R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/shiny-1.1.0
+	sci-CRAN/shiny
 	sci-CRAN/shinydashboard
 	sci-CRAN/shinyWidgets
 	sci-CRAN/DT
 	sci-CRAN/crayon
+	sci-CRAN/markdown
 	sci-CRAN/rmarkdown
 	sci-CRAN/knitr
-	>=sci-CRAN/data_table-1.11.4
+	sci-CRAN/data_table
 	sci-CRAN/ctmm
 	sci-CRAN/magrittr
 	sci-CRAN/purrr
 	sci-CRAN/memoise
-	>=sci-CRAN/ggplot2-3.0.0
+	sci-CRAN/ggplot2
 	sci-CRAN/ggrepel
 	sci-CRAN/scales
+	sci-CRAN/grid
 	sci-CRAN/gridExtra
 	sci-CRAN/lubridate
 	sci-CRAN/leaflet
 	sci-CRAN/sp
-	sci-CRAN/rgdal
 	sci-CRAN/leaflet_extras
 	sci-CRAN/htmlwidgets
-	sci-CRAN/rgeos
 	sci-CRAN/httr
 	sci-CRAN/stringr
+	sci-CRAN/terra
 	sci-CRAN/XML
 	sci-CRAN/xml2
 	sci-CRAN/zip

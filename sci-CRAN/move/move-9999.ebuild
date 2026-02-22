@@ -14,12 +14,12 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/geosphere-1.4.3
 	sci-CRAN/sp
-	sci-CRAN/rgdal
 	>=sci-CRAN/raster-3.6.14
 	sci-CRAN/Rcpp
 	sci-CRAN/httr
 	sci-CRAN/xml2
 	sci-CRAN/memoise
+	sci-CRAN/terra
 "
 RDEPEND="${DEPEND-}
 	${R_SUGGESTS-}
