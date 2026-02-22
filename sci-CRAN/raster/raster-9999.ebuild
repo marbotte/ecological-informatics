@@ -10,11 +10,10 @@ LICENSE='GPL-3+'
 EGIT_REPO_URI="https://github.com/rspatial/raster.git"
 
 DEPEND="
->=sci-CRAN/terra-1.6.41
+>=sci-CRAN/terra-1.8.5
 >=dev-lang/R-3.5.0
 sci-CRAN/Rcpp
 >=sci-CRAN/sp-1.4.5
->=sci-CRAN/rgdal-1.5.8
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
