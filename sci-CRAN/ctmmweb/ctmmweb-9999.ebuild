@@ -29,7 +29,6 @@ DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/ggplot2
 	sci-CRAN/ggrepel
 	sci-CRAN/scales
-	sci-CRAN/grid
 	sci-CRAN/gridExtra
 	sci-CRAN/lubridate
 	sci-CRAN/leaflet
