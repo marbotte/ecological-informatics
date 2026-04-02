@@ -1,0 +1,16 @@
+BDEPEND=dev-lang/rust net-libs/nodejs[npm] llvm-core/clang virtual/pkgconfig || ( >=dev-lang/rust-bin-1.74.1:* >=dev-lang/rust-1.74.1:* )
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
+DESCRIPTION=Native hi-fi Qobuz desktop player for Linux
+EAPI=8
+HOMEPAGE=https://qbz.lol https://github.com/vicrodh/qbz
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=cargo xdg
+IUSE=pipewire pulseaudio debug
+KEYWORDS=~amd64 ~arm64
+LICENSE=MIT
+PDEPEND=media-sound/alsa-utils
+RDEPEND=net-libs/webkit-gtk:4.1 x11-libs/gtk+:3 media-libs/alsa-lib dev-libs/openssl dev-libs/libayatana-appindicator x11-libs/libxkbcommon gnome-base/librsvg:2 pipewire? ( media-video/pipewire[pipewire-alsa] ) pulseaudio? ( media-libs/libpulse )
+SLOT=0
+SRC_URI=https://github.com/vicrodh/qbz/archive/refs/tags/v1.2.1.tar.gz -> qbz-1.2.1.tar.gz
+_eclasses_=toolchain-funcs	5195689ff6a73b0e789acfa09d4fbcb9	flag-o-matic	fd3558f73f6503093adee69adf41020d	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	rust	0d1cc00e0e91a021b50b0491e361ad41	rust-toolchain	76468983281b0a7fc167ca224f84ecfd	cargo	be19d4b6a17dac5249b9273866e3b66b	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_md5_=339af9dcf91838ef67d90d6151eed9ae

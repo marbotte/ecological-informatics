@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>blitzkriegfc@gmail.com</email>
+		<name>blitzkriegfc</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">vicrodh/qbz</remote-id>
+		<bugs-to>https://github.com/vicrodh/qbz/issues</bugs-to>
+	</upstream>
+	<use>
+		<flag name="pipewire">Enable PipeWire audio backend support</flag>
+		<flag name="pulseaudio">Enable PulseAudio compatibility layer</flag>
+	</use>
+	<longdescription lang="en">
+		QBZ is a native, full-featured hi-fi Qobuz desktop player for Linux.
+		Features include bit-perfect audio playback with DAC passthrough,
+		Last.fm/ListenBrainz scrobbling, Chromecast/DLNA/AirPlay casting,
+		local library management, and a modern SvelteKit UI via Tauri.
+	</longdescription>
+</pkgmetadata>
