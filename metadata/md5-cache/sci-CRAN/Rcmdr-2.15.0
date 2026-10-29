@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/TeachingDemos >=dev-lang/R-3.5.0 >=sci-CRAN/RcmdrMisc-2.10.2 >=sci-CRAN/effects-4.0.3 >=sci-CRAN/car-3.1.0 sci-CRAN/abind dev-lang/R[tk] >=sci-CRAN/tcltk2-1.2.6 >=sci-CRAN/relimp-1.0.5 sci-CRAN/lme4 dev-lang/R:=
+DESCRIPTION=R Commander
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/TeachingDemos >=dev-lang/R-3.5.0 >=sci-CRAN/RcmdrMisc-2.10.2 >=sci-CRAN/effects-4.0.3 >=sci-CRAN/car-3.1.0 sci-CRAN/abind dev-lang/R[tk] >=sci-CRAN/tcltk2-1.2.6 >=sci-CRAN/relimp-1.0.5 sci-CRAN/lme4 dev-lang/R:=
+SLOT=0
+SRC_URI=https://cran.r-project.org/src/contrib/Rcmdr_2.15.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=12e76e12a49b21dc3d5f2fc1091a9cd7
